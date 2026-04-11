@@ -1,0 +1,10 @@
+when was the last watering day > 2
+is it hot | yes
+did the temperature changed to lower  | yes
+
+if the user has not watered for more than 2 days
+	tell the user "You need to irrigate"
+if the weather forecast is hot
+	tell the user "You really need to irrigate"
+if the weather forecast is not hot
+	tell the user "Please do not irrigate now" 
